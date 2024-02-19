@@ -10,9 +10,9 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
     
-    public function home(){
+    // public function home(){
         
-       $categories = Category::get();
-        return view('home',compact('categories'));
-    }
+    //    $categories = Category::get();
+    //     return view('home',compact('categories'));
+    // }
 }
